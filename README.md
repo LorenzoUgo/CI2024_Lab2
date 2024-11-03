@@ -45,7 +45,31 @@ The _distance_ then become the value of the edge between two cities (nodes).
 
 ## Genetic Algorithm
 
-Num. steps = starting_population + (num_offspring*num_generations)
+My GA combine different techniques of parent selection, mutation and crossover. At the end of each generation, survives the most promising individuals: the ones with the better path.
+
+>**Crossover**
+>- _Inver Over_: 
+>
+>- _Partially_Mapped_Crossover_: 
+>
+
+>**Parent Selection**
+>- _Roulette wheel_: 
+>
+>- _Roulette wheel fitness based_: 
+>
+>- _Best parent_: 
+>
+
+>**Mutation**
+>- _Macro mutation_: 
+>
+>- _Insert mutation_: 
+>
+>- _Inversion mutation_: 
+>
+
+Num. steps =  [_number of path computed_] = starting_population + (num_offspring*num_generations)
 
 |  Instance  |  Cities  | Final Cost (km) | Num Steps |
 |:----------:|:--------:|:---------------:|:---------:|
